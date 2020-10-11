@@ -339,7 +339,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 60}
-  m_SizeDelta: {x: 240, y: 30}
+  m_SizeDelta: {x: 1000, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478011729
 MonoBehaviour:
@@ -766,6 +766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed0071414e5fe1358cf48bad6f150c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textField: {fileID: 478011729}
 --- !u!114 &1323122817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -819,6 +820,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: SampleScene
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1323122816}
+        m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
+        m_MethodName: SetText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Muhammad Aliyul Memasuki Game 5
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1323122818
@@ -954,6 +967,18 @@ MonoBehaviour:
           m_StringArgument: SampleSceneWeek3
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1428614703}
+        m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
+        m_MethodName: SetText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Muhammad Aliyul Memasuki Game 3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1428614701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,6 +1029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed0071414e5fe1358cf48bad6f150c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textField: {fileID: 478011729}
 --- !u!1 &1451768989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,6 +1204,18 @@ MonoBehaviour:
           m_StringArgument: SampleSceneWeek4
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1476950380}
+        m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
+        m_MethodName: SetText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Muhammad Aliyul Memasuki Game 4
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1476950378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1228,6 +1266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed0071414e5fe1358cf48bad6f150c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textField: {fileID: 478011729}
 --- !u!1 &1505696188
 GameObject:
   m_ObjectHideFlags: 0
